@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/calculadora-6.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/calculadora-6.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="./scripts/calculadora-6.js" defer></script>
-</head>
-<body>
-    <div class="calculadora">
-        <div class="tela sound-on"><span></span><i class='bx bx-volume-full'></i><i class='bx bx-volume-mute' ></i></div>
-        <div class="botoes">
-            <button class="power"><i class='bx bx-power-off'></i></button>
-            <button onclick="blank()" class="c">C</button>
-            <button class="sound"><i class='bx bx-volume-full'></i></button>
-            <button onclick="calc('√')" class="calc">√</button>
-            <button onclick="number(7)">7</button>
-            <button onclick="number(8)">8</button>
-            <button onclick="number(9)">9</button>
-            <button onclick="calc('÷')" class="calc">÷</button>
-            <button onclick="number(4)">4</button>
-            <button onclick="number(5)">5</button>
-            <button onclick="number(6)">6</button>
-            <button onclick="calc('x')" class="calc">x</button>
-            <button onclick="number(1)">1</button>
-            <button onclick="number(2)">2</button>
-            <button onclick="number(3)">3</button>
-            <button onclick="calc('-')" class="calc">-</button>
-            <button onclick="number(0)">0</button>
-            <button onclick="calc('.')">.</button>
-            <button onclick="result()" class="result">=</button>
-            <button onclick="calc('+')" class="calc">+</button>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculadora">
+        <div class="tela sound-on">
+          <span></span><i class="bx bx-volume-full"></i
+          ><i class="bx bx-volume-mute"></i>
         </div>
+        <div class="botoes">
+          <button class="power"><i class="bx bx-power-off"></i></button>
+          <button onclick="blank()" class="c">C</button>
+          <button class="sound"><i class="bx bx-volume-full"></i></button>
+          <button onclick="calc('√')" class="calc">√</button>
+          <button onclick="number(7)">7</button>
+          <button onclick="number(8)">8</button>
+          <button onclick="number(9)">9</button>
+          <button onclick="calc('÷')" class="calc">÷</button>
+          <button onclick="number(4)">4</button>
+          <button onclick="number(5)">5</button>
+          <button onclick="number(6)">6</button>
+          <button onclick="calc('x')" class="calc">x</button>
+          <button onclick="number(1)">1</button>
+          <button onclick="number(2)">2</button>
+          <button onclick="number(3)">3</button>
+          <button onclick="calc('-')" class="calc">-</button>
+          <button onclick="number(0)">0</button>
+          <button onclick="calc('.')">.</button>
+          <button onclick="result()" class="result">=</button>
+          <button onclick="calc('+')" class="calc">+</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

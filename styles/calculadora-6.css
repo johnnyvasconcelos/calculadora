@@ -5,6 +5,11 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
 .calculadora {
   border: 5px outset #2f2f2f;
   background-color: #3d3d3d;
@@ -88,4 +93,19 @@
 .calculadora .botoes .result {
   background-color: #24ad4d;
   color: white;
+}
+@media (max-width: 390px) {
+  .calculadora {
+    height: 520px;
+    border: 4px outset #2f2f2f;
+  }
+  .calculadora .tela {
+    border: 4px outset #a1a4a4;
+  }
+  .calculadora .botoes button:active {
+    border: 4px inset gray;
+  }
+  .calculadora .botoes button {
+    border: 4px outset gray;
+  }
 }
